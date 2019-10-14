@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flash Text with SR Tutorials</title>
+    <style media="screen">
+      body{
+          background: rgb(6, 205, 255);
+          color: #fff;
+      }
+      .sr_flash {
+        animation : flash linear 1s infinite;
+      }
+      @keyframes flash {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: -1;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+    <h1>Flash text Example with SR Tutorials</h1>
+    <h1 class="sr_flash">SR Tutorials</h1>
+  </body>
+</html>
